@@ -1,1 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #7dc5fc;
+    font-family: Arial, Verdana, sans-serif;
+}  
 
+label {
+    font-size: 25px;
+}
+
+.menubar {
+    width: 100%;
+    padding: 5px 0px 20px 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .menubarbtn {
+      display: inline-block;
+      width: 150px;
+      padding: 5px;
+      margin-left: 20px;
+      margin-right: 20px;
+      border-radius: 10px;
+      background-color: rgb(120, 120, 124);
+      color: rgb(55, 63, 63);
+      
+  }
+  #selectedpage {
+      background-color: rgb(170, 170, 176);
+  }
+  .menubarbtn :hover{
+      color: rgb(216, 216, 224);
+  }
+  .menubarbtn a:link{
+      color: rgb(55, 63, 63);
+      text-decoration: none;
+      background-color: transparent;
+  
+  }
+  .menubarbtn a:visited {
+      color: rgb(55, 63, 63);
+      background-color: transparent;
+      text-decoration: none;
+  }
+  .menubarbtn a:hover {
+      color: rgb(55, 63, 63);
+      background-color: transparent;
+      text-decoration: none;
+  }
+  .menubarbtn a:active {
+      color: rgb(55, 63, 63);
+      background-color: transparent;
+      text-decoration: none;
+  }
+  
