@@ -14,9 +14,23 @@
         <div class="menubarbtn"><a href="https://discgolf.rylanpaul.com"><p>Disc Golf</p></a></div>
         <div class="menubarbtn" id="selectedpage"><a href="https://discoverposeycounty.rylanpaul.com"><p>Discover PoCo</p></a></div>
       </div>
-    <p>Discover Posey County</p>
+      <p id="titletext">Welcome to<br>Discover Posey County</p>
     <p>Fun Gif</p>
-    <p>Some form for emails</p>
+    <div class="container">
+        <form onsubmit="sendContact(); reset; return false;">
+    
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name..">
+    
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="example@gmail.com">
+    
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Write something..." style="height:200px"></textarea>
+          <button type="submit">Submit</button>
+    
+        </form>
+    </div>
     <p>Link to app store</p>
 </body>
 </html>
