@@ -63,7 +63,7 @@ function sendEmail(user){
     Email.send({
         SecureToken : "66e2cd1c-165e-46f0-b146-2e90c1648134",
         To : "discoverposeycounty@gmail.com",
-        From : "discgolf@rylanpaul.com",
+        From : "discoverposeycounty@rylanpaul.com",
         Subject : "discoverposeycounty.rylanpaul.com Form Submission",
         Body : "Name: " + user.name + "<br>Email: " + user.email + "<br><br>Message:<br>" + user.message
     }).then(
