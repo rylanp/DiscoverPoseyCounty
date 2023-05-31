@@ -70,7 +70,7 @@ label {
   }
   /* Style the submit button with a specific background color etc */
   button {
-    background-color: #3fb2bf;
+    background-color: #76bfc7;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -81,7 +81,7 @@ label {
   
   /* When moving the mouse over the submit button, add a darker green color */
   button:hover {
-    background-color: #59d7e4;
+    background-color: rgb(102, 217, 230);
     scale: 100%;
   }
   .spacer{
@@ -92,7 +92,7 @@ label {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 8px;
-    background-color: #cbe7da;
+    background-color: #b2e8ef;
     padding: 20px;
     width: 80%;
     margin: auto;
@@ -109,7 +109,7 @@ label {
   }
   .copyright{
     width: 100%;
-    color: white;
+    color: black;
     text-align: center;
   }
   .wrapper {
@@ -174,4 +174,8 @@ label {
     .container{
       width: 60%;
     }
+  }
+  .gif {
+    width: 100%;
+    height: 15vw;
   }
