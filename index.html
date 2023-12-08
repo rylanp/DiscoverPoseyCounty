@@ -7,42 +7,49 @@
     <link rel="stylesheet" href="index.css">
     <title>Discover Posey County</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="menubar">
-        <div class="menubarbtn"><a href="https://rylanpaul.com"><p>Home</p></a></div>
-        <div class="menubarbtn"><a href="https://discgolf.rylanpaul.com"><p>Disc Golf</p></a></div>
-        <div class="menubarbtn" id="selectedpage"><a href="https://discoverposeycounty.rylanpaul.com"><p>Discover PoCo</p></a></div>
-      </div>
-      <p id="titletext">Welcome to<br>Discover Posey County</p>
-    <img src="camping8.gif" alt="Fun Gif" class="gif">
-    <div class="container">
-        <form onsubmit="sendContact(); reset; return false;">
-    
-          <label for="name">Name</label>
-          <input type="text" id="name" placeholder="Enter your name..">
-    
-          <label for="email">Email</label>
-          <input type="text" id="email" placeholder="example@gmail.com">
-    
-          <label for="message">Message</label>
-          <textarea id="message" placeholder="Write something..." style="height:200px"></textarea>
-          <button type="submit">Submit</button>
-    
-        </form>
-    </div>
-    <div class="wrapper">
-        <article class="img-info">
-          <h2>Discover Posey County</h2>
-          <p>Check it out on the app store!<br>Click on the icon to view it.</p>
-        </article>
-        <a href="https://apps.apple.com/us/app/discover-posey-county/id1635389764" target="_blank"><img class="img-icon" src="icon.png" alt="App Icon"></a>
-      </div>
-      <p class="copyright">©2023 by Discover Posey County</p>
-    <script src="index.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <div class="topnavigation">
+    <h1>RP</h1>
+    <a href="https://rylanpaul.com">
+        <h2>Home</h2>
+    </a>
+    <a href="https://discgolf.rylanpaul.com">
+        <h2>Disc Golf</h2>
+    </a>
+    <a href="https://discoverposeycounty.rylanpaul.com" id="active">
+        <h2>Discover PoCo</h2>
+    </a>
+  </div>
+  <p id="titletext">Welcome to<br>Discover Posey County</p>
+  <img src="camping8.gif" alt="Fun Gif" class="gif">
+  <div class="container">
+      <form onsubmit="sendContact(); reset; return false;">
+  
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name..">
+  
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="example@gmail.com">
+  
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write something..." style="height:200px"></textarea>
+        <button type="submit">Submit</button>
+  
+      </form>
+  </div>
+  <div class="wrapper">
+    <article class="img-info">
+      <h2>Discover Posey County</h2>
+      <p>Check it out on the app store!<br>Click on the icon to view it.</p>
+    </article>
+    <a href="https://apps.apple.com/us/app/discover-posey-county/id1635389764" target="_blank"><img class="img-icon" src="icon.png" alt="App Icon"></a>
+  </div>
+  <p class="copyright">©2024 by Discover Posey County</p>
+  <script src="index.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
